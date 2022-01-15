@@ -32,10 +32,11 @@ body
     background-image: linear-gradient(90deg, #FF008E,#9c1f64);
     color: white;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     cursor: pointer;
     position: relative;    
+    font-family: inherit;
 }
 /* My information */
 .headings h1
@@ -71,6 +72,10 @@ body
      line-height: 1.5;
      margin: 20px 0;
      text-align: justify;
+}
+.btn .arrow
+{
+    margin-left: 8px;
 }
 .banner-right
 {
@@ -178,6 +183,23 @@ textarea
 {
     margin-top: 10px;
 }
+.link_button_2
+{
+    margin-left: 1010px;
+}
+.btn_2
+{
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    color: white;
+    background-color: #FF008E;
+    font-family: inherit;
+}
+.btn_2 .arrow_1
+{
+    margin-left: 5px;
+}
 
 /* Footer  */
 .footer
@@ -215,6 +237,10 @@ textarea
     grid-template-columns: repeat(1,1fr);
     gap: 30px
     }
+    .link_button_2
+{
+    margin-left: 200px;
+}
     .contact{
         display: grid;
         grid-template-columns: repeat(1,1fr);
