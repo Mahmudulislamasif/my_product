@@ -185,12 +185,13 @@ textarea
 }
 .link_button_2
 {
-    margin-left: 1010px;
+    margin: 10px;
 }
+
 .btn_2
 {
     padding: 5px;
-    margin: 10px;
+    margin-left: 985px;
     border: none;
     color: white;
     background-color: #FF008E;
@@ -237,10 +238,11 @@ textarea
     grid-template-columns: repeat(1,1fr);
     gap: 30px
     }
-    .link_button_2
-{
-    margin-left: 200px;
-}
+    .btn_2
+    {
+        margin-left: 180px;
+        width: 40%;
+    }
     .contact{
         display: grid;
         grid-template-columns: repeat(1,1fr);
