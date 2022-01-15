@@ -237,7 +237,7 @@ textarea
     font-family: 'EB Garamond', serif;
 }
 /* Media queries for andriod*/
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:688px) {
     .banner
     {
         display: grid;
@@ -264,7 +264,7 @@ textarea
     
 }
 /* Media queries for Tab */
-@media only screen and (min-width:577px) and (max-width:768px)
+@media only screen and (min-width:688px) and (max-width:992px)
 {
     .banner
     {
