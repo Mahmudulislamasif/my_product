@@ -196,6 +196,9 @@ textarea
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+    .banner-left h1{
+        font-size: 30px;
+    }
     .feature
     {
     display: grid;
@@ -214,9 +217,6 @@ textarea
     {
         display: grid;
         grid-template-columns: repeat(2,1fr);
-    }
-    .banner-left h1{
-        font-size: 30px;
     }
     .feature
     {
