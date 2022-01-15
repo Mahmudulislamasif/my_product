@@ -70,6 +70,7 @@ body
      font-size: 18px;
      line-height: 1.5;
      margin: 20px 0;
+     text-align: justify;
 }
 .banner-right
 {
@@ -108,14 +109,12 @@ body
     color: #FF008E;
     font-size: 25px;
 }
-
+.card h4{
+    margin: 5px 0px;
+}
 .card p{
     text-align: justify;
     line-height: 1.5;
-}
-.card a{
-    text-decoration: none;
-    color: #FF008E;
 }
 .ratings
 {
@@ -139,20 +138,7 @@ body
 {
     font-size: 13px;
 }
-
-/* Footer  */
-.footer
-{
-    background-color: black;
-    color: blanchedalmond;
-    text-align: center;
-}
-.footer_detail
-{
-    margin-top: 20px;
-    padding-top: 10px;
-}
-/* Contact info */
+/* Contact info for customer */
 .contact
 {
     display: grid;
@@ -192,7 +178,28 @@ textarea
 {
     margin-top: 10px;
 }
-/* Media queries */
+
+/* Footer  */
+.footer
+{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.footer_detail
+{
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.footer_icon
+{
+    margin: 5px;
+    border: 2px solid #FF008E;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Media queries for andriod*/
 @media only screen and (max-width:688px) {
     .banner
     {
@@ -214,6 +221,7 @@ textarea
     }
     
 }
+/* Media queries for Tab */
 @media only screen and (min-width:688px) and (max-width:992px)
 {
     .banner
