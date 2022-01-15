@@ -136,6 +136,11 @@ body
 {
     color: #AEAEAE;
 }
+.half_star
+{
+    font-size: 12px;
+    color: #AEAEAE;
+}
 .rating{
     margin-left: 5px;
 }
