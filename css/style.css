@@ -263,6 +263,11 @@ textarea
     grid-template-columns: repeat(2,1fr);
     gap: 30px
     }
+    .btn_2
+    {
+        margin-left: 550px;
+        width: 20%;
+    }
     .contact{
         display: grid;
         grid-template-columns: repeat(1,1fr);
