@@ -121,6 +121,7 @@ body
     text-align: justify;
     line-height: 1.5;
 }
+/* Ratings for all product */
 .ratings
 {
   display: flex;
@@ -228,7 +229,7 @@ textarea
 }
 
 /* Media queries for andriod*/
-@media only screen and (max-width:688px) {
+@media only screen and (max-width:576px) {
     .banner
     {
         display: grid;
@@ -255,7 +256,7 @@ textarea
     
 }
 /* Media queries for Tab */
-@media only screen and (min-width:688px) and (max-width:992px)
+@media only screen and (min-width:577px) and (max-width:768px)
 {
     .banner
     {
